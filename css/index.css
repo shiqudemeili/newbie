@@ -1,0 +1,500 @@
+@charset "utf-8";
+body,ul,li,h1,form,input,dd,dt,dl,span,p{margin: 0; padding: 0;}
+a {	
+	text-decoration: none;
+	color: #666;
+
+}
+body {font: 12px "宋体";}
+li {list-style: none;
+	color: #666;}
+input,button{
+	outline: none;
+	border:none;
+	vertical-align: top;
+}
+.fl{float: left;}
+.fr{float: right;}
+.ft14{font-size: 14px;}
+.w970{width: 970px; margin: 0 auto;}
+
+
+.header-top{
+	width: 100%;
+	height: 26px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #d8d8d8;
+	line-height: 26px;
+}
+.top-nav li{
+	float: left;
+	margin-right: 11px;
+}
+.top-nav li span{
+	float: right;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #606060 #f7f7f7 #f7f7f7 #f7f7f7;
+	margin: 11px 4px 0 4px;
+}
+
+/* 以上是网页的顶部 */
+.header{
+	height: 124px;
+	border-bottom: 2px solid #0266a3;
+}
+.logo{
+	width: 250px;
+	height: 56px;
+	background:url(../images/a.gif) no-repeat;
+	margin-top: 24px;
+	margin-left: 10px;
+	text-indent: -999px;
+}
+.search{
+	border:1px solid #c9c9c9;
+	background:url(../images/c.gif) repeat-x;
+	padding:5px 5px 5px 4px;
+	margin-top: 29px;
+}
+.search input[type="text"]{
+	width: 415px;
+	height: 28px;
+	border:1px solid #a6a6a6;
+	border-right: none;
+	background:url(../images/b.gif) repeat-x; 
+	color:#999;
+	padding-left: 4px;
+}
+.search input[type="button"]{
+	background: #2f70d0;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	width: 99px;
+	height:30px;
+}
+.header-nav{
+	margin-top: 19px;
+	clear:both;
+}
+.header-nav li{
+	float: left;
+}
+.header-nav li a{
+	border: 1px solid #fff;
+	border-top: none;
+	color: #0266a3;
+	display: block;
+	font-weight: bold;
+	height:24px;
+	line-height: 24px;
+	padding: 0 15px 0 14px;
+}
+.header-nav li a:hover{
+	border-color: #0266a3;
+	background: #0266a3;
+	color:#fff;
+}
+.header-nav li .a1{
+	border-color: #0266a3;
+	background: #0266a3;
+	color:#fff;
+}
+/* 以上是网页的头部 */
+.banner{
+	width: 970px;
+	height: 234px;
+	margin: 0 auto;
+	
+}
+.sidebar-left{
+	float: left;
+	width: 200px;
+	height: 210px;
+	background: #ebf0f6 url(../images/y.gif) no-repeat bottom left;
+	margin: 10px 0 14px 0px;
+}
+dt{
+	height: 30px;
+	background: #0266a3;
+	font:14px "宋体";
+	color: #fff;
+	line-height: 30px;
+	padding-left: 14px;
+}
+dd{
+	width: 161px;
+	font:14px "宋体";
+	padding-top: 11.5px;
+	padding-left: 39px;
+	
+}
+dd a{
+	text-decoration: none;
+	color: #606060;
+}
+.banner-con {
+	width: 520px;
+	height: 210px;
+	float: left;
+	margin-top:10px;
+}
+.banner-con a{
+	position: absolute;
+
+}
+.form-a {
+	position: relative;
+	top:180px;
+	width: 520px;
+	height: 30px;
+	margin-right: -10px;
+	text-align: right;
+	line-height: 30px;
+	background: rgba(222,222,222,0.5);	
+
+}
+.form-a input{
+	width: 22px;
+	height: 22px;
+	font-size: 8px;
+	border:1px solid #ab9f9c;
+	margin-right: 3px;
+	background: url(../images/d.gif) repeat-x;
+	border:1px solid #ab9f9c;
+	outline: none;
+}
+.sidebar-right{
+	width: 239px;
+	height: 226px;
+	float: left;
+	margin-top: 10px;
+}
+.ua{ 
+	width: 228px;
+	height: 93px;
+	background: #f7faff url(../images/h.gif) no-repeat bottom left;
+	border: 1px solid #ddd ;
+	margin-left: 9px;
+} 
+.ub{
+	width: 228px;
+	height: 93px;
+	background: #f7f7f7 ;
+	text-align: center;
+	margin-top: 21px;
+	margin-left: 9px;
+}
+.ub li{
+	padding-top:6px;
+}
+ul{
+	list-style-type: none;
+}
+ul a{
+	text-decoration: none;
+}
+.ub a{
+	font-size: 16px;
+}
+
+
+.la{
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 17px;
+	padding-top: 7px;
+}
+.lb{
+	
+	font-size: 13px;
+	padding-left: 55px;
+	padding-top: 20px;
+}
+
+.lc{
+	font-size: 14px;
+	color: #999 ;
+}
+
+.ld button{
+	width: 79px;
+	height: 21px;
+	background: url(../images/f.gif) no-repeat;
+	border: 1px solid #afc6e7 ;
+	outline: none;
+}
+/* 以上是网页的广告部分 */
+.content-A{
+	width: 970px;
+	height:408px;
+	margin: 0px auto;
+	border-top: 2px solid #c3d7e4 ;
+}
+.content-span{
+	height: 34px;
+	line-height: 34px;
+	background: #ecf1f7 ;
+	font-size: 16px;
+}
+.content-span-a{
+	margin-left: 22px;
+}
+ .content-da{
+	width: 727px;
+	height: 344px;
+	border: 1px solid #d8d8d8 ;
+	margin-top: 10px;
+	float: left;
+}
+.content-db{
+	width: 324px;
+	height: 172px;
+	margin-left: 26px;
+	float: left;
+}
+.content-dc{
+	width: 97px;
+	height: 100px;
+	border: 1px solid #cacaca ;
+	float: left;
+	margin-top: 15px;
+}
+.content-dd{
+	width: 220px;
+	height: 100px;
+	float: left;
+	margin-top: 15px;
+}
+.content-de{
+	width: 324px;
+	height:72px;
+	float: left;
+	line-height: 72px;
+}
+.content-de button{
+	width: 98px;
+	height: 26px;
+	background: url(../images/content-b.gif) no-repeat;
+	border: none;
+	margin-top: 15px;
+}
+.content-dd a{
+	text-decoration: none;
+	font-size: 14px;
+	color: black ;
+	margin-left: 10px;
+}
+.content-dd p{
+	color: #863e01 ;
+	font-size: 12px;
+	margin-left: 15px;
+}
+.content-pa{
+	margin-top: 14px;
+}
+.content-dd b{
+	font-size: 12px;
+	color: #c50934 ;
+	margin-left: 10px;
+	margin-top: 23px;
+}
+.content-ema{
+	display: inline-block;
+	width: 52px;
+	background: url(../images/content-f.gif) no-repeat right;
+}
+.content-dd del{
+	color: #555 ;
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 23px;
+}
+.content-de span{
+	position: relative;
+	top: -8px;
+	left: 10px;
+}
+.content-righta{
+	width: 228px;
+	height: 344px;
+	border: 1px solid #e0e6f0 ;
+	float: right;
+	margin-top: 10px;
+}
+.content-righta span{
+	display: inline-block;
+	width: 228px;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px solid #e0e6f0 ;
+}
+.content-righta p{
+	padding-left: 15px;
+}
+.content-righta li{
+	font-size: 12px;
+	list-style-type: square;
+	margin-top: 12px;
+	margin-left: 17px;
+}
+/* 以上是网页的A部分 */
+.content-B{
+	width: 970px;
+	height: 389px;
+	margin: 0 auto;
+	border-top: 2px solid #c3d7e4 ;
+}
+.content-sp{
+	width: 722px;
+	border-bottom: 2px solid #00b0e7 ;
+}
+.content-span-b{
+	display: inline-block;
+	width: 143px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	background: url(../images/content-g.gif) repeat-x;
+	border-radius: 5px 0 0 0;
+	margin-top: 11px;
+}
+.content-span-c{
+	float: right;
+	width: 32px;
+	height: 23px;
+	background: url(../images/content-span-c.gif);
+}
+.content-a-a{
+	height: 23px;
+	line-height: 23px;
+	display: inline-block;
+	float: right;
+	margin-top: 11.5px;
+}
+.content-B-top{
+	width: 722px;
+	height:340px;
+	float: left;
+}
+.content-B-top ul{
+	width: 722px;
+	height:317px;
+	border-left: 1px solid #cacaca ;
+	border-bottom: 1px solid #cacaca ;
+	border-right: 1px solid #cacaca ;
+}
+.content-B-top li{
+	float: left;
+	width: 162px;
+	height: 317px;
+	line-height: 25px;
+	text-align: center;
+	margin-left: 5px;
+	padding-right: 12px;
+}
+.content-B-top p{
+	color: #999 ;
+}
+.content-B-top b{
+	font-size: 15px;
+	color: #a10000 ;
+}
+.content-B-dq{
+	width: 233px;
+	height: 320px;
+	float: right;
+	margin-top: 13
+}
+.content-B-dq .dq{
+	width: 218px;
+	height: 128px;
+	border:1px solid #cbcbcb ;
+	margin-top: 11px;
+}
+.content-B-dq .dw{
+	margin-top: 10px;
+}
+/* 以上是网页的B部分 */
+.content-rightc{
+	width: 230px;
+	height: 344px;
+	float: right;
+	margin-top: 10px;
+}
+.content-rightc .content-spanc{
+	display: inline-block;
+	width: 230px;
+	height: 30px;
+	background: #f8f8f8 ;
+	line-height: 30px;
+}
+.content-lic{
+	display: inline-block;
+	width: 230px;
+	height: 14px;
+	margin-top: 10px;
+	margin-left: 12px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.content-rightc p{
+	padding-left: 10px;
+}
+.content-rightc img{
+            float: left;
+            margin-top: 14px;
+            margin-left: 10px;
+ }
+.content-spand{
+             display: inline-block;
+            width: 108px;
+            height: 75px;
+             font-size: 14px;
+            margin-top: 14px;
+         margin-left: 7px;
+}
+/* 以上是网页的C部分 */
+.friendlink{
+	height: 102px;
+	width: 970px;
+	margin:0 auto;
+	border-top: 1px solid #ddd ;
+	border-bottom: 3px solid #0a7ec3 ;
+	font-size: 14px;
+}
+.friendlink p{
+	width: 65px;
+	height: 102px;
+	float: left;
+	line-height: 102px;
+}
+.friendlink ul{
+	width: 905px;
+	height: 72px;
+	float: right;
+	margin-top: 30px;
+	font-size: 12px;
+}
+.friendlink li{
+	float: left;
+	margin-top: 13px;
+	margin-left: 6px;
+}
+/* 以上是网页的友情链接 */
+.footer{
+	width: 970px;
+	height: 91px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer p{
+	margin-top: 15px;
+	color: #333 ;
+}
+.footer a{
+	color: #444 ;
+	text-decoration: none;
+}
+/* 以上是网页的尾 */
